@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ishema Ry'Abato Academy School | Uburezi Buzira Inenge | Kigali, Rwanda</title>
+  <meta name="description" content="Ishema Ry'Abato Academy School - Uburezi Buzira Inenge. Premier bilingual nursery and primary school located in Masoro, Gasabo, Kigali, Rwanda.">
+  
+  <!-- FontAwesome 6 Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/sainte-rita.css">
+</head>
+<body>
+
+  <!-- Top Information Bar -->
+  <div class="top-bar">
+    <div class="top-bar-container">
+      <div class="top-bar-left">
+        <span><i class="fas fa-map-marker-alt text-amber-400"></i> Masoro, Ndera, Gasabo, Kigali, Rwanda</span>
+        <span><i class="fas fa-envelope text-amber-400"></i> ishemaryabatoacademy@gmail.com</span>
+      </div>
+      <div class="top-bar-right">
+        <a href="tel:+250788456677"><i class="fas fa-phone-alt text-amber-400"></i> +250 788 456 677</a>
+        <span style="background: rgba(245, 158, 11, 0.2); color: #fbbf24; padding: 2px 10px; border-radius: 12px; font-weight: bold; font-size: 0.75rem; border: 1px solid rgba(245, 158, 11, 0.3);">
+          Admissions Open 2026/2027
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header & Navigation Bar -->
+  <header>
+    <div class="nav-container">
+      <!-- School Logo & Branding -->
+      <a href="#home" class="logo" data-page="page-home">
+        <div class="logo-badge">
+          <img src="./images/logo.jpeg" alt="Ishema Ry'Abato Academy School Logo">
+        </div>
+        <div class="logo-text">
+          <h1>Ishema Ry'Abato</h1>
+          <span>Academy School</span>
+          <p class="logo-tagline">Uburezi Buzira Inenge</p>
+        </div>
+      </a>
+
+      <!-- Navigation Menu (SPA Page Switching) -->
+      <nav>
+        <ul>
+          <li><a href="#home" class="nav-link active" data-page="page-home">Home</a></li>
+          <li><a href="#services" class="nav-link" data-page="page-services">Services</a></li>
+          <li><a href="#about" class="nav-link" data-page="page-about">About Us</a></li>
+          <li><a href="#gallery" class="nav-link" data-page="page-gallery">Photo Gallery</a></li>
+          <li><a href="#contact" class="nav-link" data-page="page-contact">Contact Us</a></li>
+          <li><a href="#join" class="btn-join" data-page="page-join">Join Now</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Menu Hamburger -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       MAIN MULTI-PAGE APPLICATION CONTAINER
+       Each section below is its own dedicated page view (.page-view)
+       ========================================================================== -->
+  <main id="app-pages">
+
+    <!-- ==================== PAGE 1: HOME ==================== -->
+    <div id="page-home" class="page-view active">
+      <!-- Edge-to-Edge Hero Section (No Side Space) -->
+      <section class="hero" style="background: linear-gradient(rgba(15, 37, 68, 0.82), rgba(15, 37, 68, 0.76)), url('./images/homepage.jpeg') center/cover no-repeat; width: 100%; max-width: 100% !important; margin: 0 !important; padding: 120px 20px; box-sizing: border-box;">
+        <div class="hero-container">
+          <div class="hero-badge">
+            <i class="fas fa-award"></i> Excellence • Integrity • Innovation
+          </div>
+          <h2>Welcome to Ishema Ry'Abato Academy School</h2>
+          <p class="motto">"Uburezi Buzira Inenge" • Quality & Flawless Education</p>
+          <p class="lead">
+            A premier nursery and primary institution located in Masoro, Gasabo, Kigali. Dedicated to nurturing young minds with knowledge, discipline, bilingual communication, and authentic Rwandan cultural values.
+          </p>
+          <div class="hero-buttons">
+            <a href="#join" class="btn-primary" data-page="page-join">Enroll Your Child Today</a>
+            <a href="#services" class="btn-outline" data-page="page-services">Explore Our Programs</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Choose Us: Vision, Mission & Core Values -->
+      <section>
+        <div class="section-header">
+          <span class="section-tag">Uburezi Buzira Inenge</span>
+          <h2>Why Choose Ishema Ry'Abato Academy School</h2>
+          <p>Guided by our clear vision, driven by our mission, and grounded in authentic Rwandan core values.</p>
+        </div>
+
+        <!-- Vision & Mission Dual Cards -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; margin-bottom: 35px;">
+          
+          <!-- Vision Card -->
+          <div class="service-card" style="border-top: 4px solid var(--accent-amber);">
+            <div class="service-icon" style="background: #fef3c7; color: #b45309;"><i class="fas fa-eye"></i></div>
+            <h3 style="color: var(--primary-blue); font-size: 1.35rem; margin-bottom: 10px;">Our Vision</h3>
+            <p style="color: #475569; font-size: 0.96rem; line-height: 1.65;">
+              To be Rwanda's leading center of early childhood and primary educational excellence, cultivating confident, innovative, ethical, and patriotic young leaders for a brighter tomorrow.
+            </p>
+          </div>
+
+          <!-- Mission Card -->
+          <div class="service-card" style="border-top: 4px solid var(--accent-burgundy);">
+            <div class="service-icon" style="background: #fee2e2; color: #991b1b;"><i class="fas fa-bullseye"></i></div>
+            <h3 style="color: var(--primary-blue); font-size: 1.35rem; margin-bottom: 10px;">Our Mission</h3>
+            <p style="color: #475569; font-size: 0.96rem; line-height: 1.65;">
+              To provide quality, flawless bilingual education (Uburezi Buzira Inenge) through participatory CBC methods, nurturing intellectual curiosity, self-confidence, discipline, and authentic Rwandan cultural values.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Core Values Section -->
+        <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 20px; padding: 40px 30px; margin-bottom: 40px;">
+          <div style="text-align: center; margin-bottom: 30px;">
+            <span class="section-tag" style="background: #fef3c7; color: #b45309;">Indangagaciro Zacu</span>
+            <h3 style="color: var(--primary-blue); font-size: 1.7rem; margin-top: 8px;">Our Core Values</h3>
+            <p style="color: #64748b; font-size: 0.95rem;">The fundamental moral pillars shaping the character, integrity, and conduct of every learner</p>
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px;">
+            
+            <div style="background: #ffffff; padding: 22px; border-radius: 14px; border-left: 4px solid #f59e0b; box-shadow: 0 4px 12px rgba(0,0,0,0.04);">
+              <h4 style="color: var(--primary-blue); font-size: 1.1rem; margin-bottom: 6px;"><i class="fas fa-shield-heart text-amber-500 mr-2"></i> Ubupfura</h4>
+              <p style="color: #64748b; font-size: 0.88rem; line-height: 1.5; margin: 0;">Integrity, honesty, and moral uprightness in every word and deed.</p>
+            </div>
+
+            <div style="background: #ffffff; padding: 22px; border-radius: 14px; border-left: 4px solid #059669; box-shadow: 0 4px 12px rgba(0,0,0,0.04);">
+              <h4 style="color: var(--primary-blue); font-size: 1.1rem; margin-bottom: 6px;"><i class="fas fa-bolt text-emerald-500 mr-2"></i> Umurava</h4>
+              <p style="color: #64748b; font-size: 0.88rem; line-height: 1.5; margin: 0;">Diligence, perseverance, and strong dedication to academic and life goals.</p>
+            </div>
+
+            <div style="background: #ffffff; padding: 22px; border-radius: 14px; border-left: 4px solid #2563eb; box-shadow: 0 4px 12px rgba(0,0,0,0.04);">
+              <h4 style="color: var(--primary-blue); font-size: 1.1rem; margin-bottom: 6px;"><i class="fas fa-flag text-blue-500 mr-2"></i> Gukunda Igihugu</h4>
+              <p style="color: #64748b; font-size: 0.88rem; line-height: 1.5; margin: 0;">Patriotism, love for Rwanda, cultural preservation, and civic duty.</p>
+            </div>
+
+            <div style="background: #ffffff; padding: 22px; border-radius: 14px; border-left: 4px solid #991b1b; box-shadow: 0 4px 12px rgba(0,0,0,0.04);">
+              <h4 style="color: var(--primary-blue); font-size: 1.1rem; margin-bottom: 6px;"><i class="fas fa-brain text-red-600 mr-2"></i> Ubuhanga</h4>
+              <p style="color: #64748b; font-size: 0.88rem; line-height: 1.5; margin: 0;">Wisdom, critical inquiry, problem-solving, and continuous academic growth.</p>
+            </div>
+
+            <div style="background: #ffffff; padding: 22px; border-radius: 14px; border-left: 4px solid #7c3aed; box-shadow: 0 4px 12px rgba(0,0,0,0.04);">
+              <h4 style="color: var(--primary-blue); font-size: 1.1rem; margin-bottom: 6px;"><i class="fas fa-hand-holding-heart text-purple-600 mr-2"></i> Ikinyabupfura</h4>
+              <p style="color: #64748b; font-size: 0.88rem; line-height: 1.5; margin: 0;">Discipline, courtesy, mutual respect, and polite social relationships.</p>
+            </div>
+
+            <div style="background: #ffffff; padding: 22px; border-radius: 14px; border-left: 4px solid #0891b2; box-shadow: 0 4px 12px rgba(0,0,0,0.04);">
+              <h4 style="color: var(--primary-blue); font-size: 1.1rem; margin-bottom: 6px;"><i class="fas fa-people-roof text-cyan-600 mr-2"></i> Ubufatanye</h4>
+              <p style="color: #64748b; font-size: 0.88rem; line-height: 1.5; margin: 0;">Solidarity, teamwork, empathy, and collective mutual support.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Quick Call to Action Bar -->
+        <div class="saturday-banner">
+          <div class="saturday-banner-text">
+            <h3>Ishema Ry'Abato Academy School</h3>
+            <p>"Uburezi Buzira Inenge" • Quality & Flawless Education in Nursery and Primary School</p>
+          </div>
+          <a href="#about" class="btn-primary" data-page="page-about" style="background: white; color: #991b1b;">Learn More About Us</a>
+        </div>
+      </section>
+    </div>
+
+    <!-- ==================== PAGE 2: SERVICES & PROGRAMS ==================== -->
+    <div id="page-services" class="page-view">
+      <div class="page-header-banner">
+        <h2>Our Educational Programs: Nursery & Primary</h2>
+        <p>We provide comprehensive, high-quality foundational education focused on our two core divisions: Nursery School and Primary School.</p>
+      </div>
+
+      <section>
+        <div class="services-grid">
+          
+          <!-- Program 1: Nursery School -->
+          <div class="service-card" style="border-top: 4px solid var(--accent-amber);">
+            <div class="service-icon" style="background: #fef3c7; color: #b45309;"><i class="fas fa-shapes"></i></div>
+            <h3>Nursery School (Amashuri y'Incuke)</h3>
+            <p>A caring, stimulating environment designed for young minds across three classes: <strong>Baby Class (Age 3)</strong>, <strong>Middle Class (Age 4)</strong>, and <strong>Top Class (Age 5)</strong>.</p>
+            <ul>
+              <li><i class="fas fa-check-circle"></i> Early phonics mastery (Jolly Phonics)</li>
+              <li><i class="fas fa-check-circle"></i> Numbers, colors, shapes, and early writing</li>
+              <li><i class="fas fa-check-circle"></i> Sensory play, motor development & creative arts</li>
+              <li><i class="fas fa-check-circle"></i> Caring, certified early childhood educators</li>
+            </ul>
+          </div>
+
+          <!-- Program 2: Primary School -->
+          <div class="service-card" style="border-top: 4px solid var(--accent-burgundy);">
+            <div class="service-icon" style="background: #fee2e2; color: #991b1b;"><i class="fas fa-graduation-cap"></i></div>
+            <h3>Primary School (P1 to P6)</h3>
+            <p>Full competence-based academic instruction spanning <strong>Primary 1 through Primary 6</strong>, preparing learners for academic excellence and national examinations.</p>
+            <ul>
+              <li><i class="fas fa-check-circle"></i> Rwanda CBC Curriculum with Singapore Math</li>
+              <li><i class="fas fa-check-circle"></i> Science, Elementary Technology & Computer Lab</li>
+              <li><i class="fas fa-check-circle"></i> Intensive PLE candidate preparation & revision</li>
+              <li><i class="fas fa-check-circle"></i> Continuous assessment, feedback & mentoring</li>
+            </ul>
+          </div>
+
+          <!-- Service 3: Bilingual Fluency -->
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-comments"></i></div>
+            <h3>Bilingual Languages & Fluency</h3>
+            <p>Immersive bilingual instruction in English and French, alongside cultural mastery and literature in Kinyarwanda from early grades.</p>
+            <ul>
+              <li><i class="fas fa-check-circle"></i> English as primary medium of instruction</li>
+              <li><i class="fas fa-check-circle"></i> French language lessons & oral practice</li>
+              <li><i class="fas fa-check-circle"></i> Public speaking, spelling bees & debates</li>
+            </ul>
+          </div>
+
+          <!-- Service 4: Culture & Itorero -->
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-drum"></i></div>
+            <h3>Rwandan Cultural Heritage (Itorero)</h3>
+            <p>Cultivating patriotism and cultural pride through Itorero ry'Abato, traditional Rwandan dance, poetry (Ibisigo), and ethical conduct.</p>
+            <ul>
+              <li><i class="fas fa-check-circle"></i> Intore & Umushayayo traditional dance troupe</li>
+              <li><i class="fas fa-check-circle"></i> Cultural values (Indangagaciro na Kirazira)</li>
+              <li><i class="fas fa-check-circle"></i> Music, piano, and performing arts</li>
+            </ul>
+          </div>
+
+          <!-- Service 5: Saturday Revision Classes -->
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-calendar-check"></i></div>
+            <h3>Saturday Academic Enhancement (P5 & P6)</h3>
+            <p>Special Saturday academic coaching and past paper drills specifically tailored for upper primary candidates to achieve Division 1 results.</p>
+            <ul>
+              <li><i class="fas fa-check-circle"></i> Focused national exam drills</li>
+              <li><i class="fas fa-check-circle"></i> Small-group individualized problem solving</li>
+              <li><i class="fas fa-check-circle"></i> Speed, accuracy, and confidence building</li>
+            </ul>
+          </div>
+
+          <!-- Service 6: Sports & Extracurriculars -->
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-futbol"></i></div>
+            <h3>Sports, Health & Co-Curricular Clubs</h3>
+            <p>Holistic physical development with monitored sports turf, football, basketball, gymnastics, chess club, and young coders club.</p>
+            <ul>
+              <li><i class="fas fa-check-circle"></i> Multi-sport turf arena and playground</li>
+              <li><i class="fas fa-check-circle"></i> Chess and logical puzzle clubs</li>
+              <li><i class="fas fa-check-circle"></i> Healthy, balanced meals & snack options</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div style="text-align: center; margin-top: 45px;">
+          <a href="#join" class="btn-primary" data-page="page-join">Enroll for Nursery or Primary Today</a>
+        </div>
+      </section>
+    </div>
+
+    <!-- ==================== PAGE 3: ABOUT ==================== -->
+    <div id="page-about" class="page-view">
+      <div class="page-header-banner">
+        <h2>About Ishema Ry'Abato Academy School</h2>
+        <p>Discover our story, leadership philosophy, core values, and our commitment to "Uburezi Buzira Inenge".</p>
+      </div>
+
+      <section>
+        <div class="about-grid">
+          <div class="about-img-wrap">
+            <img src="./images/homepage.jpeg" alt="Ishema Ry'Abato Academy Campus">
+            <div class="about-experience-badge">
+              <strong>IRA</strong>
+              <span>Uburezi Buzira Inenge</span>
+            </div>
+          </div>
+
+          <div class="about-content">
+            <span class="section-tag">Uburezi Buzira Inenge</span>
+            <h3>Our School History & Heritage</h3>
+            <p>
+              <strong>Ishema Ry'Abato Academy School</strong> was established with a singular mission: to provide flawless, holistic, and values-driven education ("Uburezi Buzira Inenge") for young learners in Rwanda.
+            </p>
+            <p>
+              Located in Masoro, Ndera Sector, Gasabo District, Kigali, our school is dedicated exclusively to <strong>Nursery School</strong> and <strong>Primary School</strong> education. We bring together experienced educators passionate about foundational learning, moral integrity, bilingual communication, and academic excellence.
+            </p>
+
+            <div class="vision-mission-cards">
+              <div class="vm-card">
+                <h4><i class="fas fa-eye text-amber-500"></i> Our Vision</h4>
+                <p>To be Rwanda's leading beacon of early childhood and primary excellence, raising confident, ethical, creative, and patriotic leaders for future generations.</p>
+              </div>
+
+              <div class="vm-card">
+                <h4><i class="fas fa-bullseye text-amber-500"></i> Our Mission</h4>
+                <p>To provide quality bilingual education through participatory CBC teaching, fostering curiosity, critical thinking, autonomy, and strong Rwandan values in every child.</p>
+              </div>
+            </div>
+
+            <!-- Core Values -->
+            <div class="core-values-wrapper">
+              <h4>Our Core Values (Indangagaciro)</h4>
+              <div class="values-pills">
+                <span class="value-pill">Ubupfura (Integrity & Honor)</span>
+                <span class="value-pill">Umurava (Diligence & Hard Work)</span>
+                <span class="value-pill">Gukunda Igihugu (Patriotism)</span>
+                <span class="value-pill">Ubuhanga (Excellence & Wisdom)</span>
+                <span class="value-pill">Ikinyabupfura (Discipline & Respect)</span>
+                <span class="value-pill">Ubufatanye (Unity & Solidarity)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ==================== PAGE 4: GALLERY (13 REAL SCHOOL PHOTOS) ==================== -->
+    <div id="page-gallery" class="page-view">
+      <div class="page-header-banner">
+        <h2>Campus Photo Gallery</h2>
+        <p>Explore real moments of learning, celebrations, sports, and cultural activities at Ishema Ry'Abato Academy School.</p>
+      </div>
+
+      <section>
+        <!-- Filter Buttons -->
+        <div class="gallery-filter">
+          <button class="filter-btn active" data-filter="all">All Photos</button>
+          <button class="filter-btn" data-filter="academics">Classrooms & Learning</button>
+          <button class="filter-btn" data-filter="events">Events & Assemblies</button>
+          <button class="filter-btn" data-filter="sports">Sports & Recreation</button>
+          <button class="filter-btn" data-filter="culture">Culture & Itorero</button>
+        </div>
+
+        <!-- 13 Real Photos Grid -->
+        <div class="gallery-grid">
+          
+          <!-- Photo 1 -->
+          <div class="gallery-item" data-category="events">
+            <img src="./images/1.jpeg" alt="School Assembly & Gathering">
+            <div class="gallery-overlay">
+              <h4>School Morning Assembly</h4>
+              <span>Gathering learners for daily inspiration</span>
+            </div>
+          </div>
+
+          <!-- Photo 2 -->
+          <div class="gallery-item" data-category="academics">
+            <img src="./images/2.jpeg" alt="Classroom Interactive Learning">
+            <div class="gallery-overlay">
+              <h4>Active Classroom Learning</h4>
+              <span>Interactive student engagement & numeracy</span>
+            </div>
+          </div>
+
+          <!-- Photo 3 -->
+          <div class="gallery-item" data-category="academics">
+            <img src="./images/3.jpeg" alt="Primary Learners at Work">
+            <div class="gallery-overlay">
+              <h4>Primary Education in Action</h4>
+              <span>Dedicated educators mentoring students</span>
+            </div>
+          </div>
+
+          <!-- Photo 4 -->
+          <div class="gallery-item" data-category="academics">
+            <img src="./images/4.jpeg" alt="Nursery Reading Corner">
+            <div class="gallery-overlay">
+              <h4>Nursery Learning & Literacy</h4>
+              <span>Foundational reading and phonics</span>
+            </div>
+          </div>
+
+          <!-- Photo 5 -->
+          <div class="gallery-item" data-category="culture">
+            <img src="./images/5.jpeg" alt="Cultural Dance & Talents">
+            <div class="gallery-overlay">
+              <h4>Cultural Expression & Talent</h4>
+              <span>Student artistic performances & heritage</span>
+            </div>
+          </div>
+
+          <!-- Photo 6 -->
+          <div class="gallery-item" data-category="sports">
+            <img src="./images/6.jpeg" alt="Sports & Physical Education">
+            <div class="gallery-overlay">
+              <h4>Sports & Campus Recreation</h4>
+              <span>Physical fitness, teamwork and play</span>
+            </div>
+          </div>
+
+          <!-- Photo 7 -->
+          <div class="gallery-item" data-category="events">
+            <img src="./images/7.jpeg" alt="School Life Milestones">
+            <div class="gallery-overlay">
+              <h4>Special School Milestones</h4>
+              <span>Celebrating student growth & achievements</span>
+            </div>
+          </div>
+
+          <!-- Photo 8 -->
+          <div class="gallery-item" data-category="academics">
+            <img src="./images/8.jpeg" alt="Focused Student Learning">
+            <div class="gallery-overlay">
+              <h4>Focused Young Learner</h4>
+              <span>Personalized attention for every child</span>
+            </div>
+          </div>
+
+          <!-- Photo 9 -->
+          <div class="gallery-item" data-category="sports">
+            <img src="./images/9.jpeg" alt="Outdoor Activities">
+            <div class="gallery-overlay">
+              <h4>Outdoor Activities & Play</h4>
+              <span>Healthy active learning in our green campus</span>
+            </div>
+          </div>
+
+          <!-- Photo 10 -->
+          <div class="gallery-item" data-category="culture">
+            <img src="./images/10.jpeg" alt="Proud Student Leader">
+            <div class="gallery-overlay">
+              <h4>Proud Young Leader</h4>
+              <span>Instilling self-confidence & discipline</span>
+            </div>
+          </div>
+
+          <!-- Photo 11 -->
+          <div class="gallery-item" data-category="academics">
+            <img src="./images/11.jpeg" alt="Joy of Discovery">
+            <div class="gallery-overlay">
+              <h4>Joy of Discovery</h4>
+              <span>Nurturing curiosity and a love for education</span>
+            </div>
+          </div>
+
+          <!-- Photo 12 -->
+          <div class="gallery-item" data-category="events">
+            <img src="./images/12.jpeg" alt="Student Friendship & Collaboration">
+            <div class="gallery-overlay">
+              <h4>Community & Collaboration</h4>
+              <span>Friendly learning community in Masoro, Gasabo</span>
+            </div>
+          </div>
+
+          <!-- Photo 13 -->
+          <div class="gallery-item" data-category="culture">
+            <img src="./images/13.jpeg" alt="Rwandan Cultural Heritage">
+            <div class="gallery-overlay">
+              <h4>Itorero & Cultural Pride</h4>
+              <span>Preserving Rwandan traditions and values</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <!-- ==================== PAGE 5: CONTACT ==================== -->
+    <div id="page-contact" class="page-view">
+      <div class="page-header-banner">
+        <h2>Contact Us & Campus Location</h2>
+        <p>We invite you to reach out or visit our campus in Masoro, Gasabo, Kigali. Our admissions team is ready to assist you.</p>
+      </div>
+
+      <section>
+        <div class="contact-grid">
+          <!-- Info Panel -->
+          <div class="contact-info-panel">
+            <h3>School Contact Details</h3>
+
+            <div class="contact-detail-row">
+              <div class="contact-icon"><i class="fas fa-map-location-dot"></i></div>
+              <div class="contact-detail-text">
+                <h4>Campus Address</h4>
+                <p>Masoro, Ndera Sector, Gasabo District, Kigali, Rwanda</p>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <div class="contact-detail-text">
+                <h4>Telephone Hotline</h4>
+                <p><a href="tel:+250788456677" style="color: white; text-decoration: none;">+250 788 456 677</a></p>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-detail-text">
+                <h4>Email Address</h4>
+                <p><a href="mailto:ishemaryabatoacademy@gmail.com" style="color: white; text-decoration: none;">ishemaryabatoacademy@gmail.com</a></p>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <div class="contact-icon"><i class="fas fa-clock"></i></div>
+              <div class="contact-detail-text">
+                <h4>Visiting Hours</h4>
+                <p>Monday – Friday: 7:00 AM – 5:30 PM | Saturday: 8:00 AM – 1:00 PM</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Message Form Panel -->
+          <div class="contact-form-panel">
+            <h3>Send Us a Direct Message</h3>
+            <p>Have questions about admissions or scheduling a campus tour? Fill out the form below.</p>
+
+            <form id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contactName">Your Full Name *</label>
+                  <input type="text" id="contactName" required placeholder="e.g. Mugisha Patrick">
+                </div>
+                <div class="form-group">
+                  <label for="contactPhone">Phone Number (WhatsApp) *</label>
+                  <input type="tel" id="contactPhone" required placeholder="+250 78...">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contactEmail">Email Address</label>
+                  <input type="email" id="contactEmail" placeholder="parent@example.com">
+                </div>
+                <div class="form-group">
+                  <label for="contactSubject">Program of Interest *</label>
+                  <select id="contactSubject" required>
+                    <option value="Nursery">Nursery School (Baby, Middle, Top)</option>
+                    <option value="Primary">Primary School (P1 - P6)</option>
+                    <option value="Admissions">Admissions & Enrollment Process</option>
+                    <option value="Visit">Schedule a Campus Visit</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMsg">Your Message *</label>
+                <textarea id="contactMsg" rows="4" required placeholder="Write your questions or message here..."></textarea>
+              </div>
+
+              <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ==================== PAGE 6: JOIN NOW (NURSERY & PRIMARY ONLY) ==================== -->
+    <div id="page-join" class="page-view">
+      <div class="page-header-banner">
+        <h2>Student Admission & Enrollment</h2>
+        <p>Admissions open for Academic Year 2026/2027 in our Nursery and Primary divisions.</p>
+      </div>
+
+      <section>
+        <div style="max-width: 720px; margin: 0 auto; background: #ffffff; padding: 40px; border-radius: 20px; border: 1px solid var(--border-color); box-shadow: 0 10px 30px rgba(0,0,0,0.06);">
+          <div style="text-align: center; margin-bottom: 25px;">
+            <span class="section-tag">Uburezi Buzira Inenge</span>
+            <h3 style="color: var(--primary-blue); font-size: 1.8rem; margin-top: 8px;">Online Student Pre-Registration Form</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem;">Complete the form below to enroll your child. You will receive an official application confirmation immediately.</p>
+          </div>
+
+          <form id="joinPageForm">
+            <div class="form-group">
+              <label for="joinChildName">Child's Full Name *</label>
+              <input type="text" id="joinChildName" required placeholder="e.g. Ineza Keza Briella">
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="joinChildDob">Date of Birth *</label>
+                <input type="date" id="joinChildDob" required>
+              </div>
+              <div class="form-group">
+                <label for="joinChildGender">Gender *</label>
+                <select id="joinChildGender" required>
+                  <option value="">Select Gender</option>
+                  <option value="Female">Female</option>
+                  <option value="Male">Male</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="joinClassSelect">Target Grade / Class *</label>
+              <select id="joinClassSelect" required>
+                <option value="">-- Select Grade (Nursery or Primary) --</option>
+                <optgroup label="Nursery School (Amashuri y'Incuke)">
+                  <option value="Nursery - Baby Class">Nursery: Baby Class (Age 3)</option>
+                  <option value="Nursery - Middle Class">Nursery: Middle Class (Age 4)</option>
+                  <option value="Nursery - Top Class">Nursery: Top Class / Reception (Age 5)</option>
+                </optgroup>
+                <optgroup label="Primary School (Amashuri Abanza)">
+                  <option value="Primary 1">Primary 1 (P1)</option>
+                  <option value="Primary 2">Primary 2 (P2)</option>
+                  <option value="Primary 3">Primary 3 (P3)</option>
+                  <option value="Primary 4">Primary 4 (P4)</option>
+                  <option value="Primary 5">Primary 5 (P5)</option>
+                  <option value="Primary 6">Primary 6 (P6 - Candidate)</option>
+                </optgroup>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="joinParentFullName">Parent / Guardian Full Name *</label>
+                <input type="text" id="joinParentFullName" required placeholder="Parent Full Name">
+              </div>
+              <div class="form-group">
+                <label for="joinParentPhone">Parent Phone Number (WhatsApp) *</label>
+                <input type="tel" id="joinParentPhone" required placeholder="+250 78...">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="joinParentAddr">Residential Address in Kigali *</label>
+              <input type="text" id="joinParentAddr" required placeholder="e.g. Masoro, Gasabo, Kigali">
+            </div>
+
+            <div class="form-group">
+              <label for="joinStudentNotes">Medical, Dietary or Previous School Notes</label>
+              <textarea id="joinStudentNotes" rows="3" placeholder="Any health, dietary restrictions or previous school attended..."></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn" style="margin-top: 10px;">Submit Enrollment Application</button>
+          </form>
+        </div>
+      </section>
+    </div>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col">
+        <div class="logo footer-logo" data-page="page-home" style="cursor: pointer;">
+          <div class="logo-badge">
+            <img src="./images/logo.jpeg" alt="Ishema Ry'Abato Academy School Logo">
+          </div>
+          <div class="logo-text">
+            <h1 style="color: #ffffff;">Ishema Ry'Abato</h1>
+            <span style="color: #fca5a5;">Academy School</span>
+            <p class="logo-tagline" style="color: #fbbf24;">Uburezi Buzira Inenge</p>
+          </div>
+        </div>
+        <p>
+          A premier private academy located in Masoro, Gasabo, Kigali dedicated to "Uburezi Buzira Inenge" through bilingual learning, modern CBC curriculum, and Rwandan cultural values in Nursery and Primary education.
+        </p>
+        <p style="color: #fbbf24; font-weight: 600; font-style: italic;">
+          "Uburezi Buzira Inenge"
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Navigation</h4>
+        <ul>
+          <li><a href="#home" data-page="page-home">Home</a></li>
+          <li><a href="#services" data-page="page-services">Services & Programs</a></li>
+          <li><a href="#about" data-page="page-about">About Us</a></li>
+          <li><a href="#gallery" data-page="page-gallery">Photo Gallery</a></li>
+          <li><a href="#contact" data-page="page-contact">Contact Us</a></li>
+          <li><a href="#join" data-page="page-join">Join Now</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Academic Programs</h4>
+        <ul>
+          <li><a href="#services" data-page="page-services">Nursery: Baby Class (Age 3)</a></li>
+          <li><a href="#services" data-page="page-services">Nursery: Middle Class (Age 4)</a></li>
+          <li><a href="#services" data-page="page-services">Nursery: Top Class (Age 5)</a></li>
+          <li><a href="#services" data-page="page-services">Primary Lower (P1 - P3)</a></li>
+          <li><a href="#services" data-page="page-services">Primary Upper (P4 - P6)</a></li>
+          <li><a href="#services" data-page="page-services">Saturday Revision Classes</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Visit Our Campus</h4>
+        <p><i class="fas fa-map-marker-alt text-amber-400"></i> Masoro, Ndera Sector, Gasabo District, Kigali, Rwanda</p>
+        <p><strong style="color: #ffffff;">Hotline:</strong> +250 788 456 677</p>
+        <p><strong style="color: #ffffff;">Email:</strong> ishemaryabatoacademy@gmail.com</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Ishema Ry'Abato Academy School. Uburezi Buzira Inenge. All rights reserved.</p>
+      <p>Masoro, Gasabo, Kigali, Rwanda</p>
+    </div>
+  </footer>
+
+  <!-- ==================== GALLERY LIGHTBOX MODAL ==================== -->
+  <div class="modal-overlay" id="lightboxModal" onclick="closeLightbox()">
+    <div class="modal-content" style="max-width: 800px; padding: 15px; background: #0f172a; border-radius: 16px; text-align: center;" onclick="event.stopPropagation()">
+      <button class="modal-close" style="color: white; top: 10px; right: 15px;" onclick="closeLightbox()">&times;</button>
+      <img id="lightboxImg" src="" alt="Enlarged photo" style="width: 100%; max-height: 70vh; object-fit: cover; border-radius: 10px;">
+      <p id="lightboxCaption" style="color: #cbd5e1; margin-top: 12px; font-size: 0.95rem;"></p>
+    </div>
+  </div>
+
+  <!-- JavaScript Controller -->
+  <script src="js/sainte-rita.js"></script>
+</body>
+</html>
